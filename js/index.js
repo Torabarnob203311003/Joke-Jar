@@ -11,7 +11,7 @@ const loadJoke = () =>{
 const DisplayJoke = jokes=>{
   const Textarea=document.getElementById('text-area')
    
-  console.log(jokes);
+  // console.log(jokes);
 //   Textarea.innerText = ''
   Textarea.innerText = jokes.setup;
   Textarea.append(document.createTextNode("\n \n🤪 ")); // Append a newline character
